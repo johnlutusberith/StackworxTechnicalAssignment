@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body {
+  padding: 50px;
+  background-color: #949494;
+ 
+}
+.mainList .header input {
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid #FFF;
+}
+.mainList .header button {
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px;
+  background-color: #122961;
+  color: #FFF;
+  border: 2px solid #0066FF;
+}
+ 
+.mainList .header button:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
+.mainList .theList {
+  list-style: none;
+  padding-left: 0;
+  width: 255px;
+}
+.mainList .theList div {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 7px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 14px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0a2130;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #0a2130, #3498db);
+  background-image: -ms-linear-gradient(top, #0a2130, #3498db);
+  background-image: -o-linear-gradient(top, #0a2130, #3498db);
+  background-image: linear-gradient(to bottom, #0a2130, #3498db);
+  text-decoration: none;
+}
